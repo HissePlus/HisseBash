@@ -61,3 +61,10 @@ wget https://raw.githubusercontent.com/gpakosz/.tmux/master/.tmux.conf
 sudo apt install jq -y
 sudo apt install ffmpeg -y
 chsh -s $(which zsh) && zsh
+
+# sikimsonik apt_pkg hatası çözümü
+sudo apt remove python3-apt
+sudo apt autoremove
+sudo apt autoclean
+sudo apt install python3-apt
+sudo apt-get update -y && sudo apt-get -y upgrade && sudo apt-get dist-upgrade -y
