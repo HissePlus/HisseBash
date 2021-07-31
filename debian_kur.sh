@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# ModernIzmir.net Ubuntu 19 Kurulum Paketi
+# Ubuntu Kurulum Paketi
 
 # Yüklemek İçin: `curl https://raw.githubusercontent.com/HissePlus/HisseBash/main/debian_kur.sh | bash`
 
